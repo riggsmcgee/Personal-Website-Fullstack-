@@ -7,27 +7,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--Done: Header w/ links to other html pages and my name -->
     <nav>
-      <div class="headerLeft">
-        <h1><b>Riggs Gorman</b></h1>
-      </div>
-      <div class="headerRight">
-        <div>
-          <a href="index.html">Home</a>
-        </div>
-        <div>
-          <a href="about.html">About</a>
-        </div>
-        <div>
-          <a href="portfolio.html"
-            ><b><u>Portfolio</u></b></a
-          >
-        </div>
-      </div>
+      <h1>Riggs Gorman</h1>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html" class="current-page">Portfolio</a>
+      <a href="contact.html">Contact Me</a>
     </nav>
-    <!-- Three sections about myself -->
-    <div>
+    <content id="portfolio-content">
       <h3>Chapter 1: Lorem</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -39,8 +26,6 @@
         efficitur nec. Mauris vel lacinia nunc. Ut id cursus erat. Suspendisse
         potenti.
       </p>
-    </div>
-    <div>
       <h3>Chapter 2: Ipsum</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed
@@ -51,8 +36,6 @@
         efficitur nec. Mauris vel lacinia nunc. Ut id cursus erat. Suspendisse
         potenti.
       </p>
-    </div>
-    <div>
       <h3>Chapter 3: Dolor</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed
@@ -63,11 +46,11 @@
         efficitur nec. Mauris vel lacinia nunc. Ut id cursus erat. Suspendisse
         potenti.
       </p>
-    </div>
+    </content>
 
-    <div class="footer">
+    <footer>
       <a>Social</a>
-    </div>
+    </footer>
 
     <script src="javascript.js"></script>
   </body>
